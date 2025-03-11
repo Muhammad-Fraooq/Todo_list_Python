@@ -4,13 +4,13 @@ Welcome to the To-Do List Manager, a simple and efficient Command-Line Interface
 
 This project allows you to efficiently manage your tasks directly from the terminal, making it lightweight and perfect for quick productivity!
 
-# 🚀 Tech Stack
+## 🚀 Tech Stack
 
 - **Python 🐍** - Core programming language
 - **Click ⚡** - CLI framework for creating user-friendly commands
 - **UV 🛠️**  - Fast package and environment manager for Python
 
-  # ✨ Features
+  ## ✨ Features
   
 - ✅ Add, view, and remove tasks effortlessly
 - ✅ Mark tasks as completed and track progress
@@ -18,11 +18,15 @@ This project allows you to efficiently manage your tasks directly from the termi
 - ✅ Persistent storage using JSON or text files
 - ✅ Lightweight & Fast CLI tool for task management
 
-# 🔧 Installation
+## 🔧 Installation
 1️⃣ Install uv (if not installed)
 
 ```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+For Window:
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex
+
+Fo rmacOS/Linux:
+curl -LsSf https://astral.sh/uv/install.sh | sh
  ```
 2️⃣ Install click (if not installed already)
 ```bash
@@ -38,7 +42,12 @@ cd Todo-list-Python
 source .venv/bin/activate   # On macOS/Linux
 .venv\Scripts\activate      # On Windows
 ```
-# 📌 Usage
+ 5️⃣ Create and Initialize the Project
+ ```bash
+uv init todo-cli
+cd todo-cli
+```
+## 📌 Usage
 
 Once installed, you can start using the To-Do List Manager from your terminal.
 ### 🔹 Add a new task
@@ -61,8 +70,8 @@ uv run python todo.py delete 1
 ```bash
 uv run python todo.py done
 ```
-# 🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! If you'd like to improve this project, feel free to fork the repo and submit a pull request. 😊
 
-# 📜 License
+## 📜 License
 This project is licensed under the MIT License.
