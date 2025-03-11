@@ -42,11 +42,6 @@ cd Todo-list-Python
 source .venv/bin/activate   # On macOS/Linux
 .venv\Scripts\activate      # On Windows
 ```
- 5️⃣ Create and Initialize the Project
- ```bash
-uv init todo-cli
-cd todo-cli
-```
 ## 📌 Usage
 
 Once installed, you can start using the To-Do List Manager from your terminal.
